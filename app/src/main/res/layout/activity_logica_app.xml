@@ -24,172 +24,33 @@
         android:id="@+id/tv_r1_1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="68dp"
         android:text="@string/letter_a"
-        app:layout_constraintBottom_toTopOf="@+id/tv_r2_1"
         app:layout_constraintEnd_toStartOf="@+id/tv_r1_2"
+        app:layout_constraintHorizontal_bias="0.263"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tv_h1" />
+        tools:layout_editor_absoluteY="118dp" />
 
     <TextView
         android:id="@+id/tv_r1_2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
         android:text="@string/letter_b"
-        app:layout_constraintBottom_toTopOf="@+id/tv_r2_2"
-        app:layout_constraintEnd_toStartOf="@+id/tv_r1_3"
-        app:layout_constraintStart_toEndOf="@+id/tv_r1_1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tv_h1" />
 
     <TextView
         android:id="@+id/tv_r1_3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginEnd="76dp"
         android:text="@string/a_and_b_text"
-        app:layout_constraintBottom_toTopOf="@+id/ti_r2_3_tt"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.855"
         app:layout_constraintStart_toEndOf="@+id/tv_r1_2"
-        app:layout_constraintTop_toBottomOf="@+id/tv_h1" />
-
-    <TextView
-        android:id="@+id/tv_r2_1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/letter_t"
-        app:layout_constraintBottom_toTopOf="@+id/tv_r3_1"
-        app:layout_constraintEnd_toStartOf="@+id/tv_r2_2"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/tv_r2_2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="116dp"
-        android:text="@string/letter_t"
-        app:layout_constraintBottom_toTopOf="@+id/tv_r3_2"
-        app:layout_constraintEnd_toStartOf="@+id/ti_r2_3_tt"
-        app:layout_constraintStart_toEndOf="@+id/tv_r2_1"
-        app:layout_constraintTop_toBottomOf="@+id/tv_h1" />
-
-    <TextView
-        android:id="@+id/tv_r3_1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/letter_t"
-        app:layout_constraintBottom_toTopOf="@+id/tv_r4_1"
-        app:layout_constraintEnd_toStartOf="@+id/tv_r3_2"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tv_r2_1" />
-
-    <TextView
-        android:id="@+id/tv_r3_2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/letter_f"
-        app:layout_constraintBottom_toTopOf="@+id/tv_r4_2"
-        app:layout_constraintEnd_toStartOf="@+id/ti_r3_3_tf"
-        app:layout_constraintStart_toEndOf="@+id/tv_r3_1"
-        app:layout_constraintTop_toBottomOf="@+id/tv_r2_2" />
-
-    <TextView
-        android:id="@+id/tv_r4_1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/letter_f"
-        app:layout_constraintBottom_toTopOf="@+id/tv_r5_1"
-        app:layout_constraintEnd_toStartOf="@+id/tv_r4_2"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tv_r3_1" />
-
-    <TextView
-        android:id="@+id/tv_r4_2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/letter_t"
-        app:layout_constraintBottom_toTopOf="@+id/tv_r5_2"
-        app:layout_constraintEnd_toStartOf="@+id/ti_r4_3_ft"
-        app:layout_constraintStart_toEndOf="@+id/tv_r4_1"
-        app:layout_constraintTop_toBottomOf="@+id/tv_r3_2" />
-
-    <TextView
-        android:id="@+id/tv_r5_2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/letter_f"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/ti_r5_3_ff"
-        app:layout_constraintStart_toEndOf="@+id/tv_r5_1"
-        app:layout_constraintTop_toBottomOf="@+id/tv_r4_2" />
-
-    <TextView
-        android:id="@+id/tv_r5_1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/letter_f"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/tv_r5_2"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tv_r4_1" />
-
-    <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/ti_r2_3_tt"
-        android:layout_width="82dp"
-        android:layout_height="52dp"
-        app:layout_constraintBottom_toTopOf="@+id/ti_r3_3_tf"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/tv_r2_2"
-        app:layout_constraintTop_toBottomOf="@+id/tv_r1_3">
-
-        <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/tt"
-            android:layout_width="match_parent"
-            android:layout_height="52dp" />
-    </com.google.android.material.textfield.TextInputLayout>
-
-    <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/ti_r3_3_tf"
-        android:layout_width="82dp"
-        android:layout_height="52dp"
-        app:layout_constraintBottom_toTopOf="@+id/ti_r4_3_ft"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/tv_r3_2"
-        app:layout_constraintTop_toBottomOf="@+id/ti_r2_3_tt">
-
-        <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/tf"
-            android:layout_width="match_parent"
-            android:layout_height="52dp" />
-    </com.google.android.material.textfield.TextInputLayout>
-
-    <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/ti_r4_3_ft"
-        android:layout_width="82dp"
-        android:layout_height="52dp"
-        app:layout_constraintBottom_toTopOf="@+id/ti_r5_3_ff"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/tv_r4_2"
-        app:layout_constraintTop_toBottomOf="@+id/ti_r3_3_tf">
-
-        <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/ft"
-            android:layout_width="match_parent"
-            android:layout_height="52dp" />
-    </com.google.android.material.textfield.TextInputLayout>
-
-    <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/ti_r5_3_ff"
-        android:layout_width="82dp"
-        android:layout_height="52dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/tv_r5_2"
-        app:layout_constraintTop_toBottomOf="@+id/ti_r4_3_ft">
-
-        <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/ff"
-            android:layout_width="match_parent"
-            android:layout_height="52dp" />
-    </com.google.android.material.textfield.TextInputLayout>
+        app:layout_constraintTop_toTopOf="@+id/tv_r1_2" />
 
     <Button
         android:id="@+id/btn_confirm"
@@ -198,8 +59,157 @@
         android:text="@string/btn_confirm_text"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tv_h1"
-        app:layout_constraintVertical_bias="0.900" />
+        app:layout_constraintVertical_bias="0.99" />
+
+    <TextView
+        android:id="@+id/tv_r2_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_r2_2"
+        app:layout_constraintEnd_toStartOf="@+id/tv_r2_2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/tv_r1_1"
+        app:layout_constraintTop_toTopOf="@+id/tv_r2_2"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/tv_r2_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="112dp"
+        android:digits="TF"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="@+id/tv_r1_2"
+        app:layout_constraintHorizontal_bias="0.45"
+        app:layout_constraintStart_toStartOf="@+id/tv_r1_2"
+        app:layout_constraintTop_toBottomOf="@+id/tv_r1_2" />
+
+    <EditText
+        android:id="@+id/et_r2_3"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_r2_2"
+        app:layout_constraintEnd_toEndOf="@+id/tv_r1_3"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/tv_r2_2"
+        app:layout_constraintTop_toTopOf="@+id/tv_r2_2"
+        app:layout_constraintVertical_bias="0.346" />
+
+    <TextView
+        android:id="@+id/tv_r3_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_r3_2"
+        app:layout_constraintEnd_toStartOf="@+id/tv_r3_2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/tv_r2_1"
+        app:layout_constraintTop_toTopOf="@+id/tv_r3_2"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/tv_r3_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="112dp"
+        android:digits="TF"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="@+id/tv_r2_2"
+        app:layout_constraintHorizontal_bias="0.45"
+        app:layout_constraintStart_toStartOf="@+id/tv_r2_2"
+        app:layout_constraintTop_toBottomOf="@+id/tv_r2_2" />
+
+    <EditText
+        android:id="@+id/et_r3_3"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_r3_2"
+        app:layout_constraintEnd_toEndOf="@+id/et_r2_3"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/tv_r3_2"
+        app:layout_constraintTop_toTopOf="@+id/tv_r3_2"
+        app:layout_constraintVertical_bias="0.346" />
+
+    <TextView
+        android:id="@+id/tv_r4_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_r4_2"
+        app:layout_constraintEnd_toStartOf="@+id/tv_r4_2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/tv_r3_1"
+        app:layout_constraintTop_toTopOf="@+id/tv_r4_2"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/tv_r4_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="112dp"
+        android:digits="TF"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="@+id/tv_r3_2"
+        app:layout_constraintHorizontal_bias="0.45"
+        app:layout_constraintStart_toStartOf="@+id/tv_r3_2"
+        app:layout_constraintTop_toBottomOf="@+id/tv_r3_2" />
+
+    <EditText
+        android:id="@+id/et_r4_3"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_r4_2"
+        app:layout_constraintEnd_toEndOf="@+id/et_r3_3"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/tv_r4_2"
+        app:layout_constraintTop_toTopOf="@+id/tv_r4_2"
+        app:layout_constraintVertical_bias="0.346" />
+
+    <TextView
+        android:id="@+id/tv_r5_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_r5_2"
+        app:layout_constraintEnd_toStartOf="@+id/tv_r5_2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/tv_r4_1"
+        app:layout_constraintTop_toTopOf="@+id/tv_r5_2"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/tv_r5_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="112dp"
+        android:digits="TF"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="@+id/tv_r4_2"
+        app:layout_constraintHorizontal_bias="0.45"
+        app:layout_constraintStart_toStartOf="@+id/tv_r4_2"
+        app:layout_constraintTop_toBottomOf="@+id/tv_r4_2" />
+
+    <EditText
+        android:id="@+id/et_r5_3"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_r5_2"
+        app:layout_constraintEnd_toEndOf="@+id/et_r4_3"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/tv_r5_2"
+        app:layout_constraintTop_toTopOf="@+id/tv_r5_2"
+        app:layout_constraintVertical_bias="0.346" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

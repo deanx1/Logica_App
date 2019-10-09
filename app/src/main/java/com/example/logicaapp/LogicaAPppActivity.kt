@@ -30,10 +30,10 @@ class LogicaAPppActivity : AppCompatActivity() {
     }
 
     private fun isCorrect(): Boolean {
-        val answer_tt = tt.text.toString()
-        val answer_tf = tf.text.toString()
-        val answer_ft = ft.text.toString()
-        val answer_ff = ff.text.toString()
+        val answer_tt = et_r2_3.text.toString()
+        val answer_tf = et_r3_3.text.toString()
+        val answer_ft = et_r4_3.text.toString()
+        val answer_ff = et_r5_3.text.toString()
         return (answer_tt == "T" &&
                 answer_tf == "F" &&
                 answer_ft == "F" &&
