@@ -9,4 +9,5 @@
     <string name="a_and_b_text">A ^ B</string>
     <string name="correct">Correct</string>
     <string name="incorrect">Incorrect</string>
+    <string name="et_descr_text">Fill in either T or F</string>
 </resources>
