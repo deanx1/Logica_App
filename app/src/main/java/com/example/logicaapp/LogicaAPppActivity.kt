@@ -21,12 +21,21 @@ class LogicaAPppActivity : AppCompatActivity() {
      */
     private fun initViews() {
         btn_confirm.setOnClickListener {
-            if (isCorrect()) {
+            if (isEmpty()) {
+                promtInputFill()
+            } else if (isCorrect()) {
                 onAnswerCorrect()
             } else {
                 onAnswerIncorrect()
             }
         }
+    }
+
+    private fun isEmpty(): Boolean {
+        if (et_r2_3.text.toString().isBlank() || et_r3_3.text.toString().isBlank() || et_r4_3.text.toString().isBlank() || et_r5_3.text.toString().isBlank()) {
+            return true
+        }
+        return false
     }
 
     private fun isCorrect(): Boolean {
@@ -52,5 +61,12 @@ class LogicaAPppActivity : AppCompatActivity() {
      */
     private fun onAnswerIncorrect() {
         Toast.makeText(this, getString(R.string.incorrect), Toast.LENGTH_SHORT).show()
+    }
+
+    /**
+     * Displays a please fill in Toast message.
+     */
+    private fun promtInputFill() {
+        Toast.makeText(this, getString(R.string.please_fill_in), Toast.LENGTH_SHORT).show()
     }
 }
