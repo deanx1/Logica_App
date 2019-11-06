@@ -60,7 +60,7 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tv_r5_2"
-        app:layout_constraintVertical_bias="0.258" />
+        app:layout_constraintVertical_bias="0.777" />
 
     <TextView
         android:id="@+id/tv_r2_1"
@@ -97,10 +97,8 @@
         android:maxLength="1"
         app:layout_constraintBottom_toBottomOf="@+id/tv_r2_2"
         app:layout_constraintEnd_toEndOf="@+id/tv_r1_3"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toEndOf="@+id/tv_r2_2"
-        app:layout_constraintTop_toTopOf="@+id/tv_r2_2"
-        app:layout_constraintVertical_bias="0.346" />
+        app:layout_constraintStart_toStartOf="@+id/tv_r1_3"
+        app:layout_constraintTop_toTopOf="@+id/tv_r2_2" />
 
     <TextView
         android:id="@+id/tv_r3_1"
@@ -137,10 +135,8 @@
         android:maxLength="1"
         app:layout_constraintBottom_toBottomOf="@+id/tv_r3_2"
         app:layout_constraintEnd_toEndOf="@+id/et_r2_3"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toEndOf="@+id/tv_r3_2"
-        app:layout_constraintTop_toTopOf="@+id/tv_r3_2"
-        app:layout_constraintVertical_bias="0.346" />
+        app:layout_constraintStart_toStartOf="@+id/et_r2_3"
+        app:layout_constraintTop_toTopOf="@+id/tv_r3_2" />
 
     <TextView
         android:id="@+id/tv_r4_1"
@@ -177,10 +173,8 @@
         android:maxLength="1"
         app:layout_constraintBottom_toBottomOf="@+id/tv_r4_2"
         app:layout_constraintEnd_toEndOf="@+id/et_r3_3"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toEndOf="@+id/tv_r4_2"
-        app:layout_constraintTop_toTopOf="@+id/tv_r4_2"
-        app:layout_constraintVertical_bias="0.346" />
+        app:layout_constraintStart_toStartOf="@+id/et_r3_3"
+        app:layout_constraintTop_toTopOf="@+id/tv_r4_2" />
 
     <TextView
         android:id="@+id/tv_r5_1"
@@ -217,9 +211,7 @@
         android:maxLength="1"
         app:layout_constraintBottom_toBottomOf="@+id/tv_r5_2"
         app:layout_constraintEnd_toEndOf="@+id/et_r4_3"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toEndOf="@+id/tv_r5_2"
-        app:layout_constraintTop_toTopOf="@+id/tv_r5_2"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintStart_toStartOf="@+id/et_r4_3"
+        app:layout_constraintTop_toTopOf="@+id/tv_r5_2" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
